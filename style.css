@@ -100,6 +100,7 @@ body{
 }
 #searchBar #magnify{
     padding-left: 10px;
+    opacity: 0.5;
 }
 #searchBar #mic{
     padding-right: 10px;
@@ -152,10 +153,33 @@ body{
 
 
 /* footer */
+.leftFoot{
+    float: left;
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+.rightFoot{
+    float: right;
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
 .bottom {
+
     position: fixed;
     bottom: 0;
     width: 100%;
-    display: flex;
-    justify-content: space-evenly;
+    height: 50px;
+    background-color: rgb(240, 240, 240);
+
+}
+.bottom a{
+    text-decoration: none;
+    font-size: 14px;
+    color: rgb(85, 85, 85);
+    padding: 10px;
+}
+.bottom a:hover{
+    text-decoration: underline;
 }
